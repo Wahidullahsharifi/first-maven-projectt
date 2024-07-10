@@ -12,9 +12,12 @@ public class HandleBrowser {
         driver.get("https://facebook.com");
         driver.manage().window().maximize();
         Thread.sleep(5000);
+        String title=driver.getTitle();
+        System.out.println(title);
 
 
         driver.close();
+
 
 
     }
