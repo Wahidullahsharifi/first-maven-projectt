@@ -9,6 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.sql.Driver;
 
+
 public class HandleBrowser {
 
     public static void main(String[] args) throws InterruptedException {
@@ -33,6 +34,7 @@ public class HandleBrowser {
         Thread.sleep(3000);
 
         driver.close();
+
 
 
     }
